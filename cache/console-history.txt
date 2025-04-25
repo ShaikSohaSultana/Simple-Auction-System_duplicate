@@ -1,0 +1,4 @@
+await factory.connect(account).createAuction("Test Item", ethers.utils.parseEther("1"), 60);
+const factory = await ethers.getContractAt("AuctionFactory", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const [account] = await ethers.getSigners();
+.help

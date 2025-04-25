@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\komma\\nft-auction-app\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1745503008081,
+      "contentHash": "1535f8c0c68463f8c1b5239f7584e71f",
+      "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "C:\\Users\\komma\\nft-auction-app\\contracts\\AuctionContracts.sol": {
+      "lastModificationDate": 1745502830172,
+      "contentHash": "aa7842ac3917d1f0b4dc9d951a1eca6f",
+      "sourceName": "contracts/AuctionContracts.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Auction",
+        "AuctionFactory"
+      ]
+    }
+  }
+}
