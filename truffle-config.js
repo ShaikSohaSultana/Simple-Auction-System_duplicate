@@ -3,7 +3,7 @@ module.exports = {
     development: {
       host: "127.0.0.1",
       port: 7545,  // Change this to 8545
-      network_id: "5777",  // Network ID for Ganache
+      network_id: "*",  // Network ID for Ganache
       gas: 6721975,  // Gas limit
       gasPrice: 20000000000  // Gas price
     }
