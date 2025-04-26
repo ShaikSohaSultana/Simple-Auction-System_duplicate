@@ -1,16 +1,16 @@
 module.exports = {
   networks: {
     development: {
-      host: "127.0.0.1",     // Localhost
-      port: 7545,            // Ganache default port
-      network_id: "5777",    // Ganache default network ID
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "5777",
       gas: 6721975,          // Gas limit
       gasPrice: 20000000000  // Gas price
     }
   },
   compilers: {
     solc: {
-      version: "0.8.20",     // Solidity version
+      version: "0.8.20", // Use 0.8.20 for OpenZeppelin 5.x
       settings: {
         optimizer: {
           enabled: true,
