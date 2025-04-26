@@ -2,15 +2,15 @@ module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
-      port: 7545,  // Change this to 8545
-      network_id: "*",  // Network ID for Ganache
-      gas: 6721975,  // Gas limit
-      gasPrice: 20000000000  // Gas price
+      port: 7545,  
+      network_id: "*",  
+      gas: 6721975,  
+      gasPrice: 20000000000  
     }
   },
   compilers: {
     solc: {
-      version: "0.8.20", // Use 0.8.20 for OpenZeppelin 5.x
+      version: "0.8.20", 
       settings: {
         optimizer: {
           enabled: true,
